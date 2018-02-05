@@ -8,6 +8,16 @@
     <artifactId>leetcode</artifactId>
     <version>1.0</version>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.10</artifactId>
+            <version>0.10.0.1</version>
+        </dependency>
+
+    </dependencies>
+
 
     <build>
         <plugins>
