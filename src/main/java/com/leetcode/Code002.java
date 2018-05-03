@@ -58,7 +58,7 @@ public class Code002 {
                 tail=tmp;
             }
         }
-        return head;
+        return head.next;
     }
 
 
