@@ -7,8 +7,8 @@ public class Code002 {
     public static void displayList(ListNode head)
     {
         if(head==null) return;
-        ListNode p=head.next;
-        while(p!=null)
+        ListNode p = head;
+        while(p !=null)
         {
             if(p.next!=null)
                 System.out.print(p.val+"->");
